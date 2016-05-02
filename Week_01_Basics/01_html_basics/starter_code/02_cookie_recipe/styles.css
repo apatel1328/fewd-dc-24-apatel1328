@@ -1,0 +1,27 @@
+
+body {
+	background-color:#FFE;
+	border: 1px solid #000000;
+	padding-left: 20px;
+	margin: 0px;
+}
+
+section {
+	color:#887;
+}
+
+section a {
+	color:#900;
+}
+
+img {
+	border: 1px solid #000000;
+}
+
+img:hover {
+	border: 2px solid green;
+}
+
+h3 {
+	text-transform:uppercase;
+}

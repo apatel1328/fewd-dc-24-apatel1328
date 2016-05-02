@@ -14,11 +14,11 @@ The goal of this first assignement is to identify the different parts of content
 There are a few tags already in the content to help with style applications. Take a look at these tags. What do they do?
 
 Styling Suggestions:
-- Make the paragraph text the font "Georgia"
-- Make the text the color #05080C
-- Make the 1st level of the table of contents larger than the second level
+<!-- - Make the paragraph text the font "Georgia" -->
+<!-- - Make the text the color #05080C -->
+<!-- - Make the 1st level of the table of contents larger than the second level
 - Make the 2nd level of the table of contents the color #3344aa
-- Make the H1's all uppercase
+- Make the H1's all uppercase -->
 ---
 
 
@@ -38,9 +38,9 @@ Styling Suggestions:
 
 ###Technical Requirements
 
-- Link the navigation to the sections of the page using the 'a' tag and id's
-- Use a unique `title` and a single unique `h1` tag
-- Show image using `img` tag including unique `alt` attribute
+<!-- - Link the navigation to the sections of the page using the 'a' tag and id's -->
+<!-- - Use a unique `title` and a single unique `h1` tag -->
+<!-- - Show image using `img` tag including unique `alt` attribute -->
 - Use an external CSS stylesheet to style your pages
 - Select at least 5 elements on the page and apply at least 5 different css properties (`font-size`, `color`, `font-family`, `font-weight`, `text-decoration`) to these elements
 - Use at least 6 different HTML tags (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p`, `ul`, `ol`, `a`, `img`) on your pages
