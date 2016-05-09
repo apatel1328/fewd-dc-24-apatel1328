@@ -1,0 +1,27 @@
+body {
+	padding-left:20px;
+}
+
+h1 {
+	font-family: proxima nova;
+}
+
+p {
+	color: #a9a9a9;
+}
+
+em {
+	font-weight:bold;
+	color: #000000;
+}
+
+blockquote em {
+	font-style: normal;
+}
+
+blockquote {
+	font-style: italic;
+	border-left:5px #a9a9a9 solid;
+	padding-left:15px;
+	margin-left: 0;
+}

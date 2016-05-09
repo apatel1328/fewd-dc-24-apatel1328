@@ -1,0 +1,33 @@
+.placeholder {
+	margin: 10px;
+	background-color: #dcdcdc;
+	border: black solid 1px;
+	height:100px;
+}
+
+
+.header {
+	background-color: #dcdcdc;
+	width:100%;
+}
+
+.section {
+	background-color: #dcdcdc;
+	width:55%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.aside {
+	background-color: #dcdcdc;
+	width:35%;
+	float:right;
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-color: #dcdcdc;
+	width:100%;
+	clear:both;
+}
+

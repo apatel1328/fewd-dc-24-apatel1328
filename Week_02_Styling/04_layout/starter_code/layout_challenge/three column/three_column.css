@@ -1,0 +1,35 @@
+
+.placeholder {
+	background-color: #dcdcdc;
+	border:.5px solid black;
+	height:100px;
+}
+.header {
+	width:100%;
+	margin: 1%;
+}
+
+.aside1 {
+	width: 22%;
+	margin: 1%;
+	float: left;
+}
+
+.section {
+	width:50%;
+	margin: 1%;
+	display: inline-block;
+}
+
+.aside2 {
+	width:22%;
+	margin: 1%;
+	float: right;
+}
+
+.footer {
+	width:100%;
+	margin: 1%;
+	clear: both;
+}
+
