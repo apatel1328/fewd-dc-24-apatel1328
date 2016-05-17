@@ -141,9 +141,9 @@ a:hover {
 .testimonial {
      text-align: center;
      clear: both;
-     background: #033048;
      padding: 50px 40px 50px 40px;
      color: #ffffff;
+     background-image: url("../images/testimonial_bg.jpg");
 }
 
 blockquote {

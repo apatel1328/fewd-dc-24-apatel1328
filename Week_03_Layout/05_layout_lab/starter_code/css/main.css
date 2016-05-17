@@ -1,0 +1,177 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+	line-height: 2;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header h1 {
+	color: red;
+	display: inline-block;
+}
+
+header p {
+	color: grey;
+	display: inline-block;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+h2 {
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 600px;
+}
+
+.main_nav {
+	margin-top: -40px;
+
+}
+
+.main_nav ul {
+	padding-left: 0;
+}
+
+.main_nav li {
+	display: inline-block;
+	background-color: black;
+	padding: 10px;
+	width: 14%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.main_nav a {
+	color: white;
+}
+
+.main_content {
+	float: left;
+	width: 60%;
+}
+
+article {
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+}
+
+.article_date {
+	color: gray;
+	font-size: 25px;
+}
+
+.article_date p {
+	margin-bottom: 0;
+}
+
+.article_name h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.article_content {
+	color: gray;
+}
+
+.read_more {
+	text-align: right;
+}
+
+.read_more a {
+	color: red;
+}
+
+.dropcap {
+	font-size: 70px;
+	display: block;
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	color: gray;
+	margin-top: -35px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	margin-top: 65px;
+}
+
+.block_title {
+	color: gray;
+}
+
+.block_content {
+	color: gray;
+}
+
+.block_content a {
+	color: red;
+}
+
+.block_img {
+	height: 200px;
+	background-color: gray;
+	padding: 25px;
+	margin: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#list {
+	border-bottom: 0;
+}
+
+footer {
+	width: 60%;
+	margin-top: 50px;
+}
+
+.sub_nav ul {
+	padding-left: 10px;
+}
+
+.sub_nav a {
+	color: red;
+}
+
+.sub_nav li {
+	display:inline-block;
+	border-right: 1px solid gray;
+	padding-right: 3px;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+
+#last_nav {
+	border-right: 0;
+}
+
+.copyright {
+	padding-left: 10px;
+	color: gray;
+	font-size: 15px;
+}
