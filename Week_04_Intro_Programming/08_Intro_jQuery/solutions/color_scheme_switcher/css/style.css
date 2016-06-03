@@ -31,8 +31,9 @@ p {
 
 #grayButton {
   background: gray;
+  cursor:pointer;
 }
-
 #whiteButton {
   background: white;
+  cursor:pointer;
 }
