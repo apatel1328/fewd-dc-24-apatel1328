@@ -17,6 +17,7 @@ jQuery(document).ready(function() {
 	jQuery('.learnmore').on('click',function(){
 		event.preventDefault();
 		jQuery('#learnmoretext').slideDown();
+        jQuery('.learnmore').hide();
 	});
 
 });
