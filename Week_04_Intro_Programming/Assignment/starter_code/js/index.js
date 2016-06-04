@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
         event.preventDefault();
         jQuery('#show-this-on-click').slideUp();
         jQuery('.readless').hide();
-        jQuery('.readmore').show();
+        jQuery('.readmore').delay(235).show(0);
     });
 
 	jQuery('.learnmore').on('click',function(){
