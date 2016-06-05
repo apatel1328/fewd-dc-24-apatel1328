@@ -1,3 +1,28 @@
+var toDoList = [];
+var itemsToDo = 0;
+var itemsTotal = 0;
+
+var toDoListSample [false,'ListText'];
+toDoList = [toDoListSample,toDoListSample,toDoListSample];
+
+function renderToDo(){
+  itemsTotal = toDoList.length;
+  itemsToDo = 0;
+
+  var renderedCode = "";
+
+  for(q=0;q<toDoList.length;q++){
+    renderedCode = renderedCode + '<li><div class=listBox><label><input type="checkbox" name="todo-check" id="todo-check"> Done? <span class="todo-content">' + newItem + '</span></label></div></li>';
+      //Hint: <li><div class=listBox><label><input type="checkbox" name="todo-check" id="todo-check"> Done? <span class="todo-content">' + newItem + '</span></label></div></li>
+   if(toDoList[q][0]==false){
+          itemsToDo++;
+        }else {
+          checked = "checked";
+        }
+        renderedCode = renderedCode + checked + 
+  }
+}
+
 /*
 
 TO DO LIST
@@ -6,7 +31,7 @@ Create a "to do" list that does the following:
 
 1. Takes the value from the input that contains the ID 
    #newItem.
-2. Add (append) the item to a list item in the unodered 
+2. Add (append) the item to a list item in the unordered 
    list that contains the ID #todos.
 Note: You will need to templatize this by storing the HTML 
    string in a variable.
