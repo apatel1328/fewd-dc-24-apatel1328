@@ -27,7 +27,6 @@ a {
 }
 
 .container {
-    width: 1100px;
     margin: 0 auto;
 }
 
@@ -183,4 +182,44 @@ a {
 .line-up {
     position: relative;
     top: 5px;
+}
+
+.mobile-nav {
+    color: #ffffff;
+    float: left;
+    display: none;
+}
+
+
+
+@media screen and (max-width:796px){
+
+    .navigation{
+        width: 100%;
+        display: none;
+    }
+
+    .mobile-nav{
+        display: unset;
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    
+    .horizontal-nav {
+        text-align: center;
+    }
+
+    .horizontal-nav li{
+        display: block;
+        margin-right: 0;
+
+
+    }
+
+@media screen and (max-width: 675px){
+    .block {
+        width: 100%;
+    }
+}
+
 }

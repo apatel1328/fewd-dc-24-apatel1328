@@ -64,7 +64,7 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 .logo {
@@ -93,6 +93,13 @@ header nav ul li {
 }
 header nav ul li a {
   color: #f9e42e;
+}
+
+.mobile_nav {
+  float: right;
+  color: yellow;
+  display: none;
+  margin-right: 10px;
 }
 
 #hero {
@@ -288,5 +295,28 @@ footer p {
   font-weight: 600;
 }
 
+
+@media screen and (max-width: 768px){
+  header nav ul li { 
+  display: block;
+   }
+  
+  .mobile_nav {
+    display: unset;
+  }
+
+  #benefits p, #benefits ul {
+    width: 100%;
+  }
+
+  #benefits ul {
+    margin-left: 25px;
+  }
+
+  blockquote {
+    width: 100%;
+  }
+
+}
 
 

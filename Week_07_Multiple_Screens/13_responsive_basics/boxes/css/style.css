@@ -1,0 +1,134 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.main_nav {
+	border: 1px solid black;
+}
+
+.main_nav ul {
+	display: inline-block;
+}
+
+.sub_nav{
+	float: left;
+	width: 60%;
+}
+
+.sub_nav li{
+	display: inline-block;
+	text-decoration: none;
+	width: 23%;
+	padding: 20px;
+
+}
+
+#mobile_nav {
+	float: right;
+	width: 40%;
+	display: none;
+}
+
+#mobile_nav	li {
+	display: inline-block;
+	float: right;
+	padding: 10px 15px;
+	margin-right: 10px;
+
+}
+
+li {
+	border:1px solid black;
+	width: 10%
+	height: 25px;
+	padding: 10px;
+}
+
+.hero{
+	border: 1px solid black;
+	height: 300px;
+	margin-top: 10px;
+}
+
+.value{
+	height: 200px;
+	text-align: center;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+
+.value div{
+	border: 1px solid black;
+	width: 20%;
+	display: inline-block;
+	margin: 2%;
+	height: 80%;
+}
+
+footer {
+	border: 1px solid black;
+	height: 150px;
+	text-align: center;
+}
+
+footer div{
+	border: 1px solid black;
+	height: 100px;
+	width: 30%;
+	display: inline-block;
+	margin:1%;
+	height: 85%;
+
+}
+
+
+/*Override here*/
+
+
+@media screen and (max-width: 1040px) {
+
+.main_nav li {
+	display: none;
+}
+
+.value {
+	height: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.value div {
+	width: 100%;
+	padding: 75px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+footer {
+	height: 100%;
+	padding: 0 5px 0 5px;
+}
+
+footer div {
+	width: 100%;
+	padding: 75px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+}
