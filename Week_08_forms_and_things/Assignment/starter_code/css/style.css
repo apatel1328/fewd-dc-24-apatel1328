@@ -292,6 +292,40 @@ footer p {
   width: 70%;
 }
 
+.margin {
+  font-size: 18px;
+  margin-right: 125px;
+}
+
+label {
+  font-size: 18px;
+}
+
+li {
+  margin-top: 5px;
+}
+
+.radio_button {
+  font-size: 18px;
+  display: inline;
+  margin-left: 3px;
+  margin-right: 25px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+.line {
+  width: 50%;
+  border:none;
+  border-bottom: 1px solid black;
+}
+
+#radio {
+  width: 5%;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 18px;

@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 
-	<title>Relaxr Blog</title>
+		<title>Relaxr Blog</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="960_12_col.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+
+	</head>
+	<body class="container_12">
+		<header>
+			<h1 class="logo">Relaxr</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div >
+				<span class="mobile_nav">&#9776;</span>
+			</div>
+		</header>
+
+		<section class="grid_8">
+			<div class="contact_form">
+				<form>
+					<h2>Contact Us</h2>
+					<p>Account Info</p>
+					<label name="name">Name</label>
+					<input type="text" name="name" required="" class="name" method="post" autofocus="">
+
+					<label name="company">Company</label>
+					<input type="text" name="company" required="" class="company" method="post">
+
+					<label name="user_email">Email</label>
+					<input type="email" name="user_email" required="" class="email" method="post">
+
+					<p>Project Info</p>
+					<label name="description"></label>
+					<textarea type="textarea" name="description" class="description"></textarea>
+
+					<input class="grid_4 send_message"type="submit" name="send_message" value="Send Message" action="#">
+				</form>
+			</div>
+		</section>
+
+		<aside class="grid_4">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat, leo ac sagittis fermentum, ex massa fringilla leo, sit amet lacinia elit neque non diam. Integer vel tempus nisl. Donec nec odio erat. Vestibulum et sodales felis. Sed eget ultrices eros.</p>
+		</aside>
+
 	
-	<!--
-	Link to Normalize CSS, Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800), 960 Grid CSS, and your style sheet.
-	-->
-
-</head>
-<body>
-
-
-	
-</body>
+	</body>
 </html>
